@@ -36,7 +36,7 @@ const Dashboard = () => {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
                 <div>
                     <h2 style={{ marginBottom: '0.5rem' }}>Dashboard Overview</h2>
-                    <p style={{ color: 'hsl(var(--text-muted))' }}>Welcome back to KidZone Admin Panel.</p>
+                    <p style={{ color: 'hsl(var(--text-muted))' }}>Welcome back to Almighty Admin Panel.</p>
                 </div>
                 {stats.totalStudents === 0 && (
                     <button
@@ -191,3 +191,4 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
