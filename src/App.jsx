@@ -6,7 +6,7 @@ import Students from './pages/Students';
 import Teachers from './pages/Teachers';
 import Fees from './pages/Fees';
 import Expenses from './pages/Expenses';
-
+import Staff from './pages/Staff';
 import { AppProvider, useApp } from './context/AppContext';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -53,3 +53,4 @@ function App() {
 
 
 export default App;
+
